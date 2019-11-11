@@ -5,5 +5,6 @@ from django.shortcuts import render ,HttpResponse
 
 
 def run(request):
+    print(6666)
     return HttpResponse('hello world!')
 
